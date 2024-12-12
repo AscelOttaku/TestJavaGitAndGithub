@@ -7,5 +7,10 @@ public class Main {
         System.out.println("New Line");
         System.out.println("New Line");
         System.out.println("I added new Line for Main");
+        print("Hello World!");
+    }
+
+    static void print(String s) {
+        System.out.println(s);
     }
 }
